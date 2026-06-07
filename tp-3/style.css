@@ -1,45 +1,53 @@
-h1.titulo {
-font-size: 2rem;
-text-align: center;
-}
 
-p#primer-parrafo.importante.parrafo{
-    font-family: serif;
-}
+		body {
+			font-size: 18px;
+			background-color: #ffe;
+			color: #210;
+		}
 
-p.novelas.parrafo{
-    font-family: serif;
-}
+		#contenedor {
+			max-width: 40ch;
+			margin: 2rem auto;
+			padding: 1rem;
+		}
 
-p.fuente.parrafo{
-    font-family: serif;
-}
+		h1 {
+			font-size: 2rem;
+			text-align: center;
+		}
 
-p#primer-parrafo.importante.parrafo{
-    color: #cee;
-}
+		p {
+			font-family: serif;
+		}
 
-p#primer-parrafo.importante.parrafo em{
-    color: #933;
-}
+		#primer-parrafo {
+			font-size: 1.3rem;
+			background-color: #cee;
+		}
 
-a{
-    outline: 1px solid #333
-}
+		p.importante em {
+			font-weight: bold;
+			color: #933;
+		}
 
-p.fuente.parrafo{
-    opacity: 100%;
-}
+		p.novelas a {
+			outline: 1px solid #333
+		}
+		p.novelas a:hover {
+			text-decoration: underline;
+			background-color: #ccd;
+		}
 
-p{
-    color: rgba(190, 120, 240, 0.6);
-}
+		body p.fuente.parrafo {
+			color: #000 !important;
+			font-size: 0.9rem;
+			text-align: center;
+		}
 
-p.fuente.parrafo{
-    color: #000;
-}
+        p:not(#primer-parrafo):not(.fuente) {   /*busca los textos que no tengan id*/
+     background: rgba(190, 120, 240, 0.6);
+        }
 
-p.novelas.parrafo span.complicado{
-    font-weight: bold;
-    color: #C62 !important; 
+.complicado {            
+  color: #C62;
 }
