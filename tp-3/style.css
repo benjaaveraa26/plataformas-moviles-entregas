@@ -1,33 +1,45 @@
-h1{
-    text-align: center;
+h1.titulo {
+font-size: 2rem;
+text-align: center;
 }
 
-p{
-     font-family: serif;
-}
-#primer-parrafo{
-    background-color:  #CEE;
+p#primer-parrafo.importante.parrafo{
+    font-family: serif;
 }
 
-#primer-parrafo em{
+p.novelas.parrafo{
+    font-family: serif;
+}
+
+p.fuente.parrafo{
+    font-family: serif;
+}
+
+p#primer-parrafo.importante.parrafo{
+    color: #cee;
+}
+
+p#primer-parrafo.importante.parrafo em{
     color: #933;
 }
 
 a{
-    outline: 1px solid #333;
+    outline: 1px solid #333
 }
 
-body p.fuente.parrafo{
+p.fuente.parrafo{
     opacity: 100%;
 }
 
 p{
-   color: rgba(190, 120, 240, 0.6);
+    color: rgba(190, 120, 240, 0.6);
 }
-body p.fuente.parrafo{
-    color:  #000;
+
+p.fuente.parrafo{
+    color: #000;
 }
-.complicado{
+
+p.novelas.parrafo span.complicado{
     font-weight: bold;
-    color: #C62 !important;
+    color: #C62 !important; 
 }
